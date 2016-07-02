@@ -1,3 +1,33 @@
 // Place all the styles related to the customers controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+*{
+  color: #4682b4;
+  font-family: 'klee';
+}
+
+h1{
+animation:scrollmask 20s ease 3s infinite;
+-webkit-animation: scrollmask 20s ease 3s infinite;
+-moz-animation: scrollmask 20s ease 3s infinite;
+}
+
+@keyframes scrollmask {
+  0% { opacity: 1;}
+  50% {opacity: 0.1;}
+  100% {opacity: 1;}
+}
+
+@-webkit-keyframes scrollmask {
+  0% { opacity: 1;}
+  50% {opacity: 0.1;}
+  100% {opacity: 1;}
+}
+
+@-moz-keyframes scrollmask {
+  0% { opacity: 1;}
+  50% {opacity: 0.1;}
+  100% {opacity: 1;}
+}
